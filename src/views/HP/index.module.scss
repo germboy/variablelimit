@@ -1,0 +1,59 @@
+.image1 {
+	height: 308px;
+}
+
+.image2 {
+	height: 384px;
+}
+
+.image3 {
+	height: 400px;
+}
+
+.image4 {
+	height: 116px;
+	background-color: #fff;
+	width: 116px;
+}
+
+@media only screen and (max-width: 959px) and (min-width: 768px) {
+	.image1 {
+		height: 244px;
+	}
+
+	.image2 {
+		height: 302px;
+	}
+
+	.image4 {
+		width: 116px;
+	}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+	.image1 {
+		height: 244px;
+	}
+
+	.image2 {
+		height: 302px;
+	}
+
+	.image4 {
+		width: 116px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.image1 {
+		height: 88px;
+	}
+
+	.image2 {
+		height: 108px;
+	}
+
+	.image4 {
+		width: 116px;
+	}
+}

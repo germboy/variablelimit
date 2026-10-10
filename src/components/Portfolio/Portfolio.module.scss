@@ -1,0 +1,71 @@
+.items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+
+  //   .lg {
+  // [role="img"] {
+  // background-color: #000;
+  // }
+  //   }
+
+  .backseatGamer {
+    [role="img"] {
+      background-color: #181820;
+    }
+  }
+
+  .enact {
+    [role="img"] {
+      background-color: #5582ff;
+    }
+  }
+
+  .hp {
+    [role="img"] {
+      background-color: #ffffff;
+    }
+  }
+
+  .radius {
+    [role="img"] {
+      background-color: #243040;
+    }
+  }
+
+  .noble {
+    [role="img"] {
+      background-color: #0d2a39;
+    }
+  }
+
+  .badKitty {
+    [role="img"] {
+      background-color: #e0e0e0;
+    }
+  }
+
+  .kanpai {
+    [role="img"] {
+      background-color: #558136;
+    }
+  }
+
+  .porva {
+    [role="img"] {
+      background-color: #f2c15c;
+    }
+  }
+
+  .rumble {
+    [role="img"] {
+      background-color: #061726;
+    }
+  }
+}
+
+a:link,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: #5f9ecc;
+}

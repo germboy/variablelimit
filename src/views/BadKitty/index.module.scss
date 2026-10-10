@@ -1,0 +1,37 @@
+.image {
+	height: 480px;
+}
+
+.centered {
+	text-align: center;
+}
+
+.title {
+	margin-top: 10px;
+}
+
+/*a,
+a:link,
+a:hover,
+a:visited {
+	text-decoration: none;
+	color: #5f9ecc;
+}*/
+
+@media only screen and (max-width: 959px) and (min-width: 768px) {
+	.image {
+		height: 480px;
+	}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+	.image {
+		height: 480px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.image {
+		height: 388px;
+	}
+}
