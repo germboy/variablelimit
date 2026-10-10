@@ -1,0 +1,46 @@
+.imageItem {
+	margin: 30px;
+	text-align: center;
+
+	&.fitWidth {
+		.image {
+			width: 100%;
+		}
+	}
+
+	.title {
+		text-align: center;
+		margin-top: 10px;
+		font-weight: 600;
+	}
+}
+/*
+@media only screen and (max-width: 959px) and (min-width: 768px) {
+	.imageItem {
+		.image {
+			&.landscape {
+				height: 410px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+	.imageItem {
+		.image {
+			&.landscape {
+				height: 410px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.imageItem {
+		.image {
+			&.landscape {
+				height: 146px;
+			}
+		}
+	}
+}*/
